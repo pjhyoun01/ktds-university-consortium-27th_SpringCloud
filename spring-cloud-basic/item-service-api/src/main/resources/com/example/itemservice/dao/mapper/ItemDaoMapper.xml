@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.itemservice.dao.ItemDao">
+
+    <select id="selectAllItems"
+        resultType="ResponseItemVO">
+        SELECT ITEM_ID, ITEM_NAME, STOCK, UNIT_PRICE
+        , TO_CHAR(CREATE_AT, 'YYYY-MM-DD HH24:MI:SS') CREATE_AT
+        FROM ITEMS
+    </select>
+    
+    <select id="selectItem"
+        parameterType="string"
+        resultType="ResponseItemVO">
+        SELECT ITEM_ID, ITEM_NAME, STOCK, UNIT_PRICE
+        , TO_CHAR(CREATE_AT, 'YYYY-MM-DD HH24:MI:SS') CREATE_AT
+        FROM ITEMS
+        WHERE ITEM_ID = #{_parameter}
+    </select>
+
+    <update id="updateStockItem"
+            parameterType="ReqeustUpdateStockVO">
+        UPDATE ITEMS
+           SET STOCK = STOCK - #{orderCount}
+         WHERE ITEM_ID = #{itemId}
+    </update>
+            
+</mapper>
+
+
+
+

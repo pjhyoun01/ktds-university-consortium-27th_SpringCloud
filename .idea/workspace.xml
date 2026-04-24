@@ -13,22 +13,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "pjhyoun01"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pjhyoun01&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:pjhyoun01/ktds-university-consortium-27th_SpringCloud.git",
-    "accountId": "5c58cb3a-84da-4d94-ad36-7f01b6569162"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:pjhyoun01/ktds-university-consortium-27th_SpringCloud.git&quot;,
+    &quot;accountId&quot;: &quot;5c58cb3a-84da-4d94-ad36-7f01b6569162&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8,
-  "fromUser": false
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3CjZhGUWAr5NsZgVnI2runs7Q92" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,9 +44,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.ApiGatewayServiceApplication.executor": "Run",
+    "Spring Boot.ItemServiceApiApplication.executor": "Run",
+    "Spring Boot.OrderServiceApiApplication.executor": "Run",
+    "Spring Boot.ServiceDiscoveryApplication.executor": "Run",
+    "Spring Boot.UserServiceApiApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -65,8 +81,23 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="ApiGatewayServiceApplication" value="STOPPED" />
+              <entry key="ItemServiceApiApplication" value="STOPPED" />
+              <entry key="OrderServiceApiApplication" value="STOPPED" />
+              <entry key="ServiceDiscoveryApplication" value="STOPPED" />
+              <entry key="UserServiceApiApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ItemServiceApiApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceDiscoveryApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,13 +179,35 @@
       <option name="presentableId" value="Default" />
       <updated>1776901056990</updated>
       <workItem from="1776901058166" duration="243000" />
+      <workItem from="1776901329786" duration="498000" />
+      <workItem from="1776904830967" duration="54000" />
+      <workItem from="1776938639885" duration="6440000" />
     </task>
+    <task id="LOCAL-00001" summary="SpringCloud Eureka, Discovery, Gateway">
+      <option name="closed" value="true" />
+      <created>1776901451631</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776901451631</updated>
+    </task>
+    <task id="LOCAL-00002" summary="SpringCloud Basic MSA application">
+      <option name="closed" value="true" />
+      <created>1776901808390</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776901808390</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="SpringCloud Eureka, Discovery, Gateway" />
+    <MESSAGE value="SpringCloud Basic MSA application" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringCloud Basic MSA application" />
   </component>
 </project>
